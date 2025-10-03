@@ -58,10 +58,4 @@ The goal: understand which borrower and loan characteristics explain interest ra
 Interpretation: ML improves prediction slightly (lower RMSE, higher R²) but does not offer clear interpretability like regression coefficients.
 
 
-## Key Takeaways
-- **Risk-based pricing confirmed:** Higher DTI/LTV → higher rates; higher Credit Score → lower rates.  
-- **Geography matters:** State fixed effects significantly improve model fit.  
-- **Limited model fit:** Borrower/loan attributes explain only 11–15% of variation; macro conditions dominate.  
-- **Prediction vs explanation:** Random Forest predicts best, but OLS provides actionable insights for policy and pricing.
-
 Credits: David Chen, Bamboo Shen
